@@ -54,6 +54,7 @@ The repository is organized around a practical pipeline:
 | Human interaction capture | HOI Reconstruction | What did the human hand and object do? |
 | Embodiment transfer and data collection | Retargeting and Teleoperation | How can this interaction become executable on a robot hand? |
 | Contact sensing | Tactile Dexterous Hands | What does the robot hand feel during execution? |
+| Policy learning and control | Learning and Control for Dexterous Hands | How can dexterous skills become robust policies? |
 | Execution | Dexterous Manipulation Tasks | Which task is being solved? |
 | Platform | Robot Hands and Hardware | Which hand makes the behavior possible? |
 | Evaluation | Datasets, Benchmarks, and Simulators | How do we compare progress? |
@@ -69,6 +70,7 @@ The intended center of gravity is **retargeting and dexterous robot-hand executi
 <li style="margin-left: 0;"><a href="#retargeting-and-teleoperation">Retargeting and Teleoperation</a></li>
 <li style="margin-left: 0;"><a href="#hoi-reconstruction-for-dexterous-manipulation">HOI Reconstruction for Dexterous Manipulation</a></li>
 <li style="margin-left: 0;"><a href="#tactile-dexterous-hands">Tactile Dexterous Hands</a></li>
+<li style="margin-left: 0;"><a href="#learning-and-control-for-dexterous-hands">Learning and Control for Dexterous Hands</a></li>
 <li style="margin-left: 0;"><a href="#dexterous-manipulation-tasks">Dexterous Manipulation Tasks</a></li>
 <li style="margin-left: 0;"><a href="#robot-hands-and-hardware-platforms">Robot Hands and Hardware Platforms</a></li>
 <li style="margin-left: 0;"><a href="#datasets-benchmarks-and-simulators">Datasets, Benchmarks, and Simulators</a></li>
@@ -77,7 +79,7 @@ The intended center of gravity is **retargeting and dexterous robot-hand executi
 </ul>
 
 > **Legend**<br>
-> ⭐️ Recommended starting point<br>
+> ⭐️ Must Read / recommended starting point<br>
 > [CODE] Official or high-quality implementation available<br>
 > [DATA] Dataset or benchmark available<br>
 > **Last Updated:** 2026-06-21
@@ -114,11 +116,13 @@ This is the primary category of the repository. It covers methods and systems th
 
 ### Teleoperation and Data Collection
 
+- ⭐️ **DexPilot**, "DexPilot: Vision Based Teleoperation of Dexterous Robotic Hand-Arm System". [![arXiv](https://img.shields.io/badge/arXiv-1910.03135-b31b1b.svg)](https://arxiv.org/abs/1910.03135) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sites.google.com/view/dex-pilot)
+- ⭐️ **Robotic Telekinesis**, "Robotic Telekinesis: Learning a Robotic Hand Imitator by Watching Humans on Youtube". [![arXiv](https://img.shields.io/badge/arXiv-2202.10448-b31b1b.svg)](https://arxiv.org/abs/2202.10448) [![Project](https://img.shields.io/badge/Project-Page-green)](https://robotic-telekinesis.github.io/)
 - **ART-Glove**, "ART-Glove: Articulated Tactile Glove for Contact-Grounded Dexterous Interaction Capture". [![arXiv](https://img.shields.io/badge/arXiv-2606.16370-b31b1b.svg)](https://arxiv.org/abs/2606.16370)
 - **RealDexUMI**, "A Wearable Universal Manipulation Interface for Dexterous Robot Learning". [![arXiv](https://img.shields.io/badge/arXiv-2606.06033-b31b1b.svg)](https://arxiv.org/abs/2606.06033) [![Project](https://img.shields.io/badge/Project-Page-green)](https://research.beingbeyond.com/realdexumi)
 - **UniDex-Cap**, from "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2603.22264-b31b1b.svg)](https://arxiv.org/abs/2603.22264)
 - **ByteDexter Teleoperation**, "Dexterous Teleoperation of 20-DoF ByteDexter Hand via Human Motion Retargeting". [![arXiv](https://img.shields.io/badge/arXiv-2507.03227-b31b1b.svg)](https://arxiv.org/abs/2507.03227) [![Project](https://img.shields.io/badge/Project-Page-green)](https://byte-dexter.github.io/)
-- **DexMV**, "DexMV: Imitation Learning for Dexterous Manipulation from Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2108.05877-b31b1b.svg)](https://arxiv.org/abs/2108.05877) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yzqin.github.io/dexmv/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/yzqin/dexmv-sim)
+- ⭐️ **DexMV**, "DexMV: Imitation Learning for Dexterous Manipulation from Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2108.05877-b31b1b.svg)](https://arxiv.org/abs/2108.05877) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yzqin.github.io/dexmv/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/yzqin/dexmv-sim)
 
 ## HOI Reconstruction for Dexterous Manipulation
 
@@ -152,23 +156,37 @@ Tactile papers are included when the sensor, representation, or policy is connec
 
 ### Tactile In-Hand Manipulation
 
-- **General In-Hand Object Rotation with Vision and Touch**. [![arXiv](https://img.shields.io/badge/arXiv-2309.09979-b31b1b.svg)](https://arxiv.org/abs/2309.09979) [![Project](https://img.shields.io/badge/Project-Page-green)](https://haozhi.io/rotateit/)
+- **RotateIt**, "General In-Hand Object Rotation with Vision and Touch". [![arXiv](https://img.shields.io/badge/arXiv-2309.09979-b31b1b.svg)](https://arxiv.org/abs/2309.09979) [![Project](https://img.shields.io/badge/Project-Page-green)](https://haozhi.io/rotateit/)
 - **TacGNN**, "TacGNN: Learning Tactile-based In-hand Manipulation with a Blind Robot". [![arXiv](https://img.shields.io/badge/arXiv-2304.00736-b31b1b.svg)](https://arxiv.org/abs/2304.00736)
-- **Dexterity from Touch**, "Dexterity from Touch: Self-Supervised Pre-Training of Tactile Representations with Robotic Play". [![arXiv](https://img.shields.io/badge/arXiv-2303.12076-b31b1b.svg)](https://arxiv.org/abs/2303.12076) [![Project](https://img.shields.io/badge/Project-Page-green)](https://tactile-dexterity.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/irmakguzey/tactile-dexterity)
-- **Touch Dexterity**, "Rotating without Seeing: Towards In-hand Dexterity through Touch". [![arXiv](https://img.shields.io/badge/arXiv-2303.10880-b31b1b.svg)](https://arxiv.org/abs/2303.10880) [![Project](https://img.shields.io/badge/Project-Page-green)](https://touchdexterity.github.io)
+- ⭐️ **Dexterity from Touch / T-Dex**, "Dexterity from Touch: Self-Supervised Pre-Training of Tactile Representations with Robotic Play". [![arXiv](https://img.shields.io/badge/arXiv-2303.12076-b31b1b.svg)](https://arxiv.org/abs/2303.12076) [![Project](https://img.shields.io/badge/Project-Page-green)](https://tactile-dexterity.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/irmakguzey/tactile-dexterity)
+- ⭐️ **Touch Dexterity**, "Rotating without Seeing: Towards In-hand Dexterity through Touch". [![arXiv](https://img.shields.io/badge/arXiv-2303.10880-b31b1b.svg)](https://arxiv.org/abs/2303.10880) [![Project](https://img.shields.io/badge/Project-Page-green)](https://touchdexterity.github.io)
 - **Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand**. [![arXiv](https://img.shields.io/badge/arXiv-2204.03698-b31b1b.svg)](https://arxiv.org/abs/2204.03698)
 
 ### Visuo-Tactile Dexterous Manipulation
 
+- **T-Rex**, "T-Rex: Tactile-Reactive Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2606.17055-b31b1b.svg)](https://arxiv.org/abs/2606.17055) [![Project](https://img.shields.io/badge/Project-Page-green)](https://tactile-rex.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ZhuoyangLiu2005/T-Rex) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/zekaiwang/trex_dataset)
 - **RAPID Hand**, "A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform for Generalist Robot Autonomy". [![arXiv](https://img.shields.io/badge/arXiv-2506.07490-b31b1b.svg)](https://arxiv.org/abs/2506.07490)
 - **Robot Synesthesia**, "Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2312.01853-b31b1b.svg)](https://arxiv.org/abs/2312.01853) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yingyuan0414.github.io/visuotactile/)
 - **TacSL**, "A Library for Visuotactile Sensor Simulation and Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.06506-b31b1b.svg)](https://arxiv.org/abs/2408.06506) [![Project](https://img.shields.io/badge/Project-Page-green)](https://iakinola23.github.io/tacsl/)
+
+## Learning and Control for Dexterous Hands
+
+Representative reinforcement learning, imitation learning, model-based control, perception-based control, and sim-to-real systems for dexterous robot hands.
+
+- ⭐️ **DAPG**, "Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations". [![arXiv](https://img.shields.io/badge/arXiv-1709.10087-b31b1b.svg)](https://arxiv.org/abs/1709.10087) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sites.google.com/view/deeprl-dexterous-manipulation) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/aravindr93/hand_dapg)
+- **PDDM**, "Deep Dynamics Models for Learning Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-1909.11652-b31b1b.svg)](https://arxiv.org/abs/1909.11652) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sites.google.com/view/pddm/)
+- ⭐️ **OpenAI Dactyl**, "Solving Rubik's Cube with a Robot Hand". [![arXiv](https://img.shields.io/badge/arXiv-1910.07113-b31b1b.svg)](https://arxiv.org/abs/1910.07113) [![Project](https://img.shields.io/badge/Project-Page-green)](https://openai.com/index/solving-rubiks-cube/)
+- **General In-Hand Re-Orientation**, "A System for General In-Hand Object Re-Orientation". [![arXiv](https://img.shields.io/badge/arXiv-2111.03043-b31b1b.svg)](https://arxiv.org/abs/2111.03043) [![Project](https://img.shields.io/badge/Project-Page-green)](https://taochenshh.github.io/projects/in-hand-reorientation) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Improbable-AI/dexenv)
+- **HORA**, "In-Hand Object Rotation via Rapid Motor Adaptation". [![arXiv](https://img.shields.io/badge/arXiv-2210.04887-b31b1b.svg)](https://arxiv.org/abs/2210.04887) [![Project](https://img.shields.io/badge/Project-Page-green)](https://haozhi.io/hora/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/HaozhiQi/hora)
+- **DeXtreme**, "Transfer of Agile In-Hand Manipulation from Simulation to Reality". [![arXiv](https://img.shields.io/badge/arXiv-2210.13702-b31b1b.svg)](https://arxiv.org/abs/2210.13702) [![Project](https://img.shields.io/badge/Project-Page-green)](https://dextreme.org/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/isaac-sim/IsaacGymEnvs/tree/main/isaacgymenvs/tasks/dextreme)
+- **DexPoint**, "DexPoint: Generalizable Point Cloud Reinforcement Learning for Sim-to-Real Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2211.09423-b31b1b.svg)](https://arxiv.org/abs/2211.09423) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yzqin.github.io/dexpoint/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/yzqin/dexpoint-release)
 
 ## Dexterous Manipulation Tasks
 
 Task-oriented papers should be listed here even if they also appear in retargeting, tactile, or teleoperation sections.
 
 - **MultiGrasp**, "Grasp Multiple Objects with One Hand". [![arXiv](https://img.shields.io/badge/arXiv-2310.15599-b31b1b.svg)](https://arxiv.org/abs/2310.15599) [![Project](https://img.shields.io/badge/Project-Page-green)](https://multigrasp.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/MultiGrasp/MultiGrasp)
+- **DexVIP**, "DexVIP: Learning Dexterous Grasping with Human Hand Pose Priors from Video". [![arXiv](https://img.shields.io/badge/arXiv-2202.00164-b31b1b.svg)](https://arxiv.org/abs/2202.00164) [![Project](https://img.shields.io/badge/Project-Page-green)](https://vision.cs.utexas.edu/projects/dexvip-dexterous-grasp-pose-prior/)
 - **UniDexGrasp++**, "UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning". [![arXiv](https://img.shields.io/badge/arXiv-2304.00464-b31b1b.svg)](https://arxiv.org/abs/2304.00464) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-EPIC/UniDexGrasp2)
 - **UniDexGrasp**, "Universal Robotic Dexterous Grasping via Learning Diverse Proposal Generation and Goal-Conditioned Policy". [![arXiv](https://img.shields.io/badge/arXiv-2303.00938-b31b1b.svg)](https://arxiv.org/abs/2303.00938) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-EPIC/UniDexGrasp2)
 - **GenDexGrasp**, "GenDexGrasp: Generalizable Dexterous Grasping". [![arXiv](https://img.shields.io/badge/arXiv-2210.00722-b31b1b.svg)](https://arxiv.org/abs/2210.00722) [![Project](https://img.shields.io/badge/Project-Page-green)](https://tongclass.ac.cn/publication/2022/gendexgrasp/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/tengyu-liu/GenDexGrasp)
@@ -178,10 +196,11 @@ Task-oriented papers should be listed here even if they also appear in retargeti
 
 Robot hands, hand-arm platforms, and platform papers that include design, sensing, actuation, or reproducibility details.
 
+- ⭐️ **LEAP Hand**, "LEAP Hand: Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning". [![arXiv](https://img.shields.io/badge/arXiv-2309.06440-b31b1b.svg)](https://arxiv.org/abs/2309.06440) [![Project](https://img.shields.io/badge/Project-Page-green)](https://leap-hand.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/leap-hand/LEAP_Hand_API)
 - **ByteDexter Hand**, from "Dexterous Teleoperation of 20-DoF ByteDexter Hand via Human Motion Retargeting". [![arXiv](https://img.shields.io/badge/arXiv-2507.03227-b31b1b.svg)](https://arxiv.org/abs/2507.03227) [![Project](https://img.shields.io/badge/Project-Page-green)](https://byte-dexter.github.io/)
 - **RAPID Hand**, "A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform for Generalist Robot Autonomy". [![arXiv](https://img.shields.io/badge/arXiv-2506.07490-b31b1b.svg)](https://arxiv.org/abs/2506.07490)
 - **Tactile SoftHand-A**, "Tactile SoftHand-A: 3D-Printed, Tactile, Highly-underactuated, Anthropomorphic Robot Hand with an Antagonistic Tendon Mechanism". [![arXiv](https://img.shields.io/badge/arXiv-2406.12731-b31b1b.svg)](https://arxiv.org/abs/2406.12731) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/SoutheastWind/Tactile_SoftHand_A)
-- **All the Feels**, "All the Feels: A dexterous hand with large-area tactile sensing". [![arXiv](https://img.shields.io/badge/arXiv-2210.15658-b31b1b.svg)](https://arxiv.org/abs/2210.15658) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus)
+- ⭐️ **All the Feels / DManus**, "All the Feels: A dexterous hand with large-area tactile sensing". [![arXiv](https://img.shields.io/badge/arXiv-2210.15658-b31b1b.svg)](https://arxiv.org/abs/2210.15658) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus)
 
 ## Datasets, Benchmarks, and Simulators
 
@@ -197,7 +216,14 @@ Resources for training, evaluating, or simulating dexterous hand-object manipula
 
 ### Dexterous Grasping Datasets
 
-- **DexGraspNet**, "DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation". [![arXiv](https://img.shields.io/badge/arXiv-2210.02697-b31b1b.svg)](https://arxiv.org/abs/2210.02697) [![Project](https://img.shields.io/badge/Project-Page-green)](https://pku-epic.github.io/DexGraspNet/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-EPIC/DexGraspNet)
+- **DexGraspNet 2.0**, "DexGraspNet 2.0: Learning Generative Dexterous Grasping in Large-scale Synthetic Cluttered Scenes". [![arXiv](https://img.shields.io/badge/arXiv-2410.23004-b31b1b.svg)](https://arxiv.org/abs/2410.23004) [![Project](https://img.shields.io/badge/Project-Page-green)](https://pku-epic.github.io/DexGraspNet2.0/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-EPIC/DexGraspNet2) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/lhrlhr/DexGraspNet2.0)
+- ⭐️ **DexGraspNet**, "DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation". [![arXiv](https://img.shields.io/badge/arXiv-2210.02697-b31b1b.svg)](https://arxiv.org/abs/2210.02697) [![Project](https://img.shields.io/badge/Project-Page-green)](https://pku-epic.github.io/DexGraspNet/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-EPIC/DexGraspNet)
+
+### Dexterous Manipulation Benchmarks and Simulators
+
+- ⭐️ **Adroit / DAPG**, "Learning Complex Dexterous Manipulation with Deep Reinforcement Learning and Demonstrations". [![arXiv](https://img.shields.io/badge/arXiv-1709.10087-b31b1b.svg)](https://arxiv.org/abs/1709.10087) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sites.google.com/view/deeprl-dexterous-manipulation) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/aravindr93/hand_dapg) [![Benchmark](https://img.shields.io/badge/Benchmark-D4RL-orange)](https://github.com/Farama-Foundation/D4RL/wiki/Tasks#Adroit)
+- ⭐️ **Bi-DexHands**, "Towards Human-Level Bimanual Dexterous Manipulation with Reinforcement Learning". [![arXiv](https://img.shields.io/badge/arXiv-2206.08686-b31b1b.svg)](https://arxiv.org/abs/2206.08686) [![Project](https://img.shields.io/badge/Project-Page-green)](https://pku-marl.github.io/DexterousHands/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-MARL/DexterousHands)
+- **POMDAR**, "A Benchmark of Dexterity for Anthropomorphic Robotic Hands". [![arXiv](https://img.shields.io/badge/arXiv-2604.09294-b31b1b.svg)](https://arxiv.org/abs/2604.09294) [![Project](https://img.shields.io/badge/Project-Page-green)](https://srl-ethz.github.io/POMDAR/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/srl-ethz/pomdar_benchmark)
 
 ### Tactile Datasets and Simulators
 
@@ -219,6 +245,7 @@ Reusable codebases, simulators, robot assets, and implementation references for 
 
 ### Simulation and Robot Assets
 
+- ⭐️ **Isaac Lab / Isaac Gym Envs**, GPU-accelerated robot-learning frameworks and benchmark environments for reinforcement learning, imitation learning, motion planning, and sim-to-real pipelines. [![Paper](https://img.shields.io/badge/Paper-Isaac_Lab-purple)](https://arxiv.org/abs/2511.04831) [![Paper](https://img.shields.io/badge/Paper-Isaac_Gym-purple)](https://arxiv.org/abs/2108.10470) [![GitHub](https://img.shields.io/badge/GitHub-IsaacLab-blue)](https://github.com/isaac-sim/IsaacLab) [![GitHub](https://img.shields.io/badge/GitHub-IsaacGymEnvs-blue)](https://github.com/isaac-sim/IsaacGymEnvs)
 - ⭐️ **ManiSkill**, a GPU-parallelized robot learning simulator and benchmark. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/mani-skill/ManiSkill)
 - **SAPIEN**, a physics-rich embodied AI simulation platform. [![Project](https://img.shields.io/badge/Project-Page-green)](https://sapien.ucsd.edu/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/haosulab/SAPIEN)
 - ⭐️ **MuJoCo Menagerie**, a curated collection of high-quality MuJoCo robot models. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/google-deepmind/mujoco_menagerie)
