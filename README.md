@@ -4,6 +4,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/CyanHaze/Awesome-Dexterous-Hands?style=social)](https://github.com/CyanHaze/Awesome-Dexterous-Hands/stargazers)
 [![License](https://img.shields.io/github/license/CyanHaze/Awesome-Dexterous-Hands)](./LICENSE)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](./CONTRIBUTING.md)
 
 A curated list of papers, datasets, simulators, hardware platforms, and open-source resources for **dexterous robot hands**.
@@ -115,15 +116,16 @@ This section covers HOI reconstruction and upstream egocentric hand-motion recov
 ### Reconstruction and Tracking
 
 - **WHOLE**, "World-Grounded Hand-Object Lifted from Egocentric Videos". [![arXiv](https://img.shields.io/badge/arXiv-2602.22209-b31b1b.svg)](https://arxiv.org/abs/2602.22209) [![Project](https://img.shields.io/badge/Project-Page-green)](https://judyye.github.io/whole-www/)
+- **AGILE**, "Hand-Object Interaction Reconstruction from Video via Agentic Generation". [![arXiv](https://img.shields.io/badge/arXiv-2602.04672-b31b1b.svg)](https://arxiv.org/abs/2602.04672)
 - **EgoGrasp**, "World-Space Hand-Object Interaction Reconstruction from Egocentric Videos". [![arXiv](https://img.shields.io/badge/arXiv-2601.01050-b31b1b.svg)](https://arxiv.org/abs/2601.01050) [![Project](https://img.shields.io/badge/Project-Page-green)](https://frank-f2022.github.io/projects/EgoGrasp/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/MINT-SJTU/EgoGrasp)
 - **Dyn-HaMR**, "Recovering 4D Interacting Hand Motion from a Dynamic Camera". [![Project](https://img.shields.io/badge/Project-Page-green)](https://dyn-hamr.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ZhengdiYu/Dyn-HaMR)
 - **HaWoR**, "High-fidelity Hand Motion Reconstruction in World Coordinates from Egocentric Videos". [![Project](https://img.shields.io/badge/Project-Page-green)](https://hawor-project.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ThunderVVV/HaWoR)
 - **Follow My Hold**, "Hand-Object Interaction Reconstruction through Geometric Guidance". [![arXiv](https://img.shields.io/badge/arXiv-2508.18213-b31b1b.svg)](https://arxiv.org/abs/2508.18213) [![Project](https://img.shields.io/badge/Project-Page-green)](https://aidilayce.github.io/FollowMyHold-page/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/aidilayce/FollowMyHold)
 - **EmbodMoCap**, "Embodied Motion Capture: 4D Human Reconstruction in Everyday Environments". [![arXiv](https://img.shields.io/badge/arXiv-2602.23205-b31b1b.svg)](https://arxiv.org/abs/2602.23205) [![Project](https://img.shields.io/badge/Project-Page-green)](https://wenjiawang0312.github.io/projects/embodmocap/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/WenjiaWang0312/EmbodMocap)
 - **ViTaM-D**, "Dynamic Reconstruction of Hand-Object Interaction with Distributed Force-aware Contact Representation". [![arXiv](https://img.shields.io/badge/arXiv-2411.09572-b31b1b.svg)](https://arxiv.org/abs/2411.09572)
-- **WiLoR**, "End-to-End 3D Hand Localization and Reconstruction in-the-wild". [![arXiv](https://img.shields.io/badge/arXiv-2409.12259-b31b1b.svg)](https://arxiv.org/abs/2409.12259) [![Project](https://img.shields.io/badge/Project-Page-green)](https://rolpotamias.github.io/WiLoR/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/rolpotamias/WiLoR)
+- [STAR] **WiLoR**, "End-to-End 3D Hand Localization and Reconstruction in-the-wild". [![arXiv](https://img.shields.io/badge/arXiv-2409.12259-b31b1b.svg)](https://arxiv.org/abs/2409.12259) [![Project](https://img.shields.io/badge/Project-Page-green)](https://rolpotamias.github.io/WiLoR/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/rolpotamias/WiLoR)
 - **G-HOP**, "Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis". [![arXiv](https://img.shields.io/badge/arXiv-2404.12383-b31b1b.svg)](https://arxiv.org/abs/2404.12383) [![Project](https://img.shields.io/badge/Project-Page-green)](https://judyye.github.io/ghop-www)
-- **HOLD**, "Category-agnostic 3D Reconstruction of Interacting Hands and Objects from Video". [![arXiv](https://img.shields.io/badge/arXiv-2311.18448-b31b1b.svg)](https://arxiv.org/abs/2311.18448) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/zc-alexfan/hold)
+- [STAR] **HOLD**, "Category-agnostic 3D Reconstruction of Interacting Hands and Objects from Video". [![arXiv](https://img.shields.io/badge/arXiv-2311.18448-b31b1b.svg)](https://arxiv.org/abs/2311.18448) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/zc-alexfan/hold)
 - **HandNeRF**, "Learning to Reconstruct Hand-Object Interaction Scene from a Single RGB Image". [![arXiv](https://img.shields.io/badge/arXiv-2309.07891-b31b1b.svg)](https://arxiv.org/abs/2309.07891) [![Project](https://img.shields.io/badge/Project-Page-green)](https://samsunglabs.github.io/HandNeRF-project-page/)
 
 ## Tactile Dexterous Hands
@@ -146,7 +148,7 @@ Tactile papers are included when the sensor, representation, or policy is connec
 
 Task-oriented papers should be listed here even if they also appear in retargeting, tactile, or teleoperation sections.
 
-- **ARCTIC**, "A Dataset for Dexterous Bimanual Hand-Object Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2204.13662-b31b1b.svg)](https://arxiv.org/abs/2204.13662) [![Project](https://img.shields.io/badge/Project-Page-green)](https://arctic.is.tue.mpg.de)
+- [STAR] **ARCTIC**, "A Dataset for Dexterous Bimanual Hand-Object Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2204.13662-b31b1b.svg)](https://arxiv.org/abs/2204.13662) [![Project](https://img.shields.io/badge/Project-Page-green)](https://arctic.is.tue.mpg.de)
 - To be expanded with dexterous grasping, in-hand manipulation, reorientation, tool use, and bimanual manipulation papers.
 
 ## Robot Hands and Hardware Platforms
@@ -163,11 +165,11 @@ Resources for training, evaluating, or simulating dexterous hand-object manipula
 
 ### HOI and Human Demonstration Datasets
 
-- **EgoVerse**, "An Ecosystem for Curating, Accessing, and Learning from Human Data for Robot Learning". [![arXiv](https://img.shields.io/badge/arXiv-2604.07607-b31b1b.svg)](https://arxiv.org/abs/2604.07607) [![Project](https://img.shields.io/badge/Project-Page-green)](https://egoverse.ai/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/GaTech-RL2/EgoVerse)
+- [STAR] **EgoVerse**, "An Ecosystem for Curating, Accessing, and Learning from Human Data for Robot Learning". [![arXiv](https://img.shields.io/badge/arXiv-2604.07607-b31b1b.svg)](https://arxiv.org/abs/2604.07607) [![Project](https://img.shields.io/badge/Project-Page-green)](https://egoverse.ai/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/GaTech-RL2/EgoVerse)
 - **UniDex-Dataset**, from "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2603.22264-b31b1b.svg)](https://arxiv.org/abs/2603.22264)
 - **EmbodMoCap**, "Embodied Motion Capture: 4D Human Reconstruction in Everyday Environments". [![arXiv](https://img.shields.io/badge/arXiv-2602.23205-b31b1b.svg)](https://arxiv.org/abs/2602.23205) [![Project](https://img.shields.io/badge/Project-Page-green)](https://wenjiawang0312.github.io/projects/embodmocap/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/WenjiaWang0312/EmbodMocap)
-- **HOT3D**, "Hand and Object Tracking in 3D from Egocentric Multi-View Videos". [![arXiv](https://img.shields.io/badge/arXiv-2411.19167-b31b1b.svg)](https://arxiv.org/abs/2411.19167) [![Project](https://img.shields.io/badge/Project-Page-green)](https://facebookresearch.github.io/hot3d/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/hot3d)
-- **ARCTIC**, "A Dataset for Dexterous Bimanual Hand-Object Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2204.13662-b31b1b.svg)](https://arxiv.org/abs/2204.13662) [![Project](https://img.shields.io/badge/Project-Page-green)](https://arctic.is.tue.mpg.de)
+- [STAR] **HOT3D**, "Hand and Object Tracking in 3D from Egocentric Multi-View Videos". [![arXiv](https://img.shields.io/badge/arXiv-2411.19167-b31b1b.svg)](https://arxiv.org/abs/2411.19167) [![Project](https://img.shields.io/badge/Project-Page-green)](https://facebookresearch.github.io/hot3d/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/hot3d)
+- [STAR] **ARCTIC**, "A Dataset for Dexterous Bimanual Hand-Object Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2204.13662-b31b1b.svg)](https://arxiv.org/abs/2204.13662) [![Project](https://img.shields.io/badge/Project-Page-green)](https://arctic.is.tue.mpg.de)
 
 ### Tactile Datasets and Simulators
 
