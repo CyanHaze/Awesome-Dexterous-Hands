@@ -96,18 +96,19 @@ This is the primary category of the repository. It covers methods and systems th
 
 ### Retargeting Methods
 
-- **TopoRetarget**, "Interaction-Preserving Retargeting for Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2606.16272-b31b1b.svg)](https://arxiv.org/abs/2606.16272)
+- **TopoRetarget**, "Interaction-Preserving Retargeting for Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2606.16272-b31b1b.svg)](https://arxiv.org/abs/2606.16272) [![Project](https://img.shields.io/badge/Project-Page-green)](https://toporetarget2026.github.io/TopoRetarget/)
 - **UniDexTok**, "A Unified Dexterous Hand Tokenizer from Real Data". [![arXiv](https://img.shields.io/badge/arXiv-2606.10683-b31b1b.svg)](https://arxiv.org/abs/2606.10683)
 - **DexTwist**, "Dexterous Hand Retargeting for Twist Motion via Mixed Reality-based Teleoperation". [![arXiv](https://img.shields.io/badge/arXiv-2605.12182-b31b1b.svg)](https://arxiv.org/abs/2605.12182)
 - **UniDex**, "A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2603.22264-b31b1b.svg)](https://arxiv.org/abs/2603.22264)
-- **TypeTele**, "Releasing Dexterity in Teleoperation by Dexterous Manipulation Types". [![arXiv](https://img.shields.io/badge/arXiv-2507.01857-b31b1b.svg)](https://arxiv.org/abs/2507.01857)
+- **TypeTele**, "Releasing Dexterity in Teleoperation by Dexterous Manipulation Types". [![arXiv](https://img.shields.io/badge/arXiv-2507.01857-b31b1b.svg)](https://arxiv.org/abs/2507.01857) [![Project](https://img.shields.io/badge/Project-Page-green)](https://isee-laboratory.github.io/TypeTele/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/iSEE-Laboratory/TypeTele)
 - **DexFlow**, "A Unified Approach for Dexterous Hand Pose Retargeting and Interaction". [![arXiv](https://img.shields.io/badge/arXiv-2505.01083-b31b1b.svg)](https://arxiv.org/abs/2505.01083)
 
 ### Teleoperation and Data Collection
 
-- **RealDexUMI**, "A Wearable Universal Manipulation Interface for Dexterous Robot Learning". [![arXiv](https://img.shields.io/badge/arXiv-2606.06033-b31b1b.svg)](https://arxiv.org/abs/2606.06033)
+- **ART-Glove**, "ART-Glove: Articulated Tactile Glove for Contact-Grounded Dexterous Interaction Capture". [![arXiv](https://img.shields.io/badge/arXiv-2606.16370-b31b1b.svg)](https://arxiv.org/abs/2606.16370)
+- **RealDexUMI**, "A Wearable Universal Manipulation Interface for Dexterous Robot Learning". [![arXiv](https://img.shields.io/badge/arXiv-2606.06033-b31b1b.svg)](https://arxiv.org/abs/2606.06033) [![Project](https://img.shields.io/badge/Project-Page-green)](https://research.beingbeyond.com/realdexumi)
 - **UniDex-Cap**, from "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2603.22264-b31b1b.svg)](https://arxiv.org/abs/2603.22264)
-- **ByteDexter Teleoperation**, "Dexterous Teleoperation of 20-DoF ByteDexter Hand via Human Motion Retargeting". [![arXiv](https://img.shields.io/badge/arXiv-2507.03227-b31b1b.svg)](https://arxiv.org/abs/2507.03227)
+- **ByteDexter Teleoperation**, "Dexterous Teleoperation of 20-DoF ByteDexter Hand via Human Motion Retargeting". [![arXiv](https://img.shields.io/badge/arXiv-2507.03227-b31b1b.svg)](https://arxiv.org/abs/2507.03227) [![Project](https://img.shields.io/badge/Project-Page-green)](https://byte-dexter.github.io/)
 - **DexMV**, "DexMV: Imitation Learning for Dexterous Manipulation from Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2108.05877-b31b1b.svg)](https://arxiv.org/abs/2108.05877) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yzqin.github.io/dexmv/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/yzqin/dexmv-sim)
 
 ## HOI Reconstruction for Dexterous Manipulation
@@ -117,13 +118,13 @@ This section covers HOI reconstruction and upstream egocentric hand-motion recov
 ### Reconstruction and Tracking
 
 - **WHOLE**, "World-Grounded Hand-Object Lifted from Egocentric Videos". [![arXiv](https://img.shields.io/badge/arXiv-2602.22209-b31b1b.svg)](https://arxiv.org/abs/2602.22209) [![Project](https://img.shields.io/badge/Project-Page-green)](https://judyye.github.io/whole-www/)
-- **AGILE**, "Hand-Object Interaction Reconstruction from Video via Agentic Generation". [![arXiv](https://img.shields.io/badge/arXiv-2602.04672-b31b1b.svg)](https://arxiv.org/abs/2602.04672)
+- **AGILE**, "Hand-Object Interaction Reconstruction from Video via Agentic Generation". [![arXiv](https://img.shields.io/badge/arXiv-2602.04672-b31b1b.svg)](https://arxiv.org/abs/2602.04672) [![Project](https://img.shields.io/badge/Project-Page-green)](https://agile-hoi.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/aim-uofa/AGILE)
 - **EgoGrasp**, "World-Space Hand-Object Interaction Reconstruction from Egocentric Videos". [![arXiv](https://img.shields.io/badge/arXiv-2601.01050-b31b1b.svg)](https://arxiv.org/abs/2601.01050) [![Project](https://img.shields.io/badge/Project-Page-green)](https://frank-f2022.github.io/projects/EgoGrasp/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/MINT-SJTU/EgoGrasp)
 - **Dyn-HaMR**, "Recovering 4D Interacting Hand Motion from a Dynamic Camera". [![Project](https://img.shields.io/badge/Project-Page-green)](https://dyn-hamr.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ZhengdiYu/Dyn-HaMR)
 - **HaWoR**, "High-fidelity Hand Motion Reconstruction in World Coordinates from Egocentric Videos". [![Project](https://img.shields.io/badge/Project-Page-green)](https://hawor-project.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ThunderVVV/HaWoR)
 - **Follow My Hold**, "Hand-Object Interaction Reconstruction through Geometric Guidance". [![arXiv](https://img.shields.io/badge/arXiv-2508.18213-b31b1b.svg)](https://arxiv.org/abs/2508.18213) [![Project](https://img.shields.io/badge/Project-Page-green)](https://aidilayce.github.io/FollowMyHold-page/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/aidilayce/FollowMyHold)
 - **EmbodMoCap**, "Embodied Motion Capture: 4D Human Reconstruction in Everyday Environments". [![arXiv](https://img.shields.io/badge/arXiv-2602.23205-b31b1b.svg)](https://arxiv.org/abs/2602.23205) [![Project](https://img.shields.io/badge/Project-Page-green)](https://wenjiawang0312.github.io/projects/embodmocap/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/WenjiaWang0312/EmbodMocap)
-- **ViTaM-D**, "Dynamic Reconstruction of Hand-Object Interaction with Distributed Force-aware Contact Representation". [![arXiv](https://img.shields.io/badge/arXiv-2411.09572-b31b1b.svg)](https://arxiv.org/abs/2411.09572)
+- **ViTaM-D**, "Dynamic Reconstruction of Hand-Object Interaction with Distributed Force-aware Contact Representation". [![arXiv](https://img.shields.io/badge/arXiv-2411.09572-b31b1b.svg)](https://arxiv.org/abs/2411.09572) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sites.google.com/view/vitam-d/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/jeffsonyu/ViTaM-D)
 - ⭐️ **WiLoR**, "End-to-End 3D Hand Localization and Reconstruction in-the-wild". [![arXiv](https://img.shields.io/badge/arXiv-2409.12259-b31b1b.svg)](https://arxiv.org/abs/2409.12259) [![Project](https://img.shields.io/badge/Project-Page-green)](https://rolpotamias.github.io/WiLoR/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/rolpotamias/WiLoR)
 - **G-HOP**, "Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis". [![arXiv](https://img.shields.io/badge/arXiv-2404.12383-b31b1b.svg)](https://arxiv.org/abs/2404.12383) [![Project](https://img.shields.io/badge/Project-Page-green)](https://judyye.github.io/ghop-www)
 - ⭐️ **HOLD**, "Category-agnostic 3D Reconstruction of Interacting Hands and Objects from Video". [![arXiv](https://img.shields.io/badge/arXiv-2311.18448-b31b1b.svg)](https://arxiv.org/abs/2311.18448) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/zc-alexfan/hold)
@@ -136,15 +137,23 @@ Tactile papers are included when the sensor, representation, or policy is connec
 ### Tactile Sensing and Perception
 
 - **HT-Bench**, "HT-Bench: Benchmarking Full-Hand Tactile Perception for Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2606.19161-b31b1b.svg)](https://arxiv.org/abs/2606.19161)
-- **FingerEye**, "FingerEye: In-Hand Vision-Tactile Sensor for Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2604.20689-b31b1b.svg)](https://arxiv.org/abs/2604.20689)
-- **Sparsh / TacBench**, "Sparsh: Self-supervised Touch Representations for Vision-based Tactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2410.24090-b31b1b.svg)](https://arxiv.org/abs/2410.24090)
-- **AnySkin**, "Plug-and-play Skin Sensing for Robotic Touch". [![arXiv](https://img.shields.io/badge/arXiv-2409.08276-b31b1b.svg)](https://arxiv.org/abs/2409.08276)
+- **FingerEye**, "FingerEye: In-Hand Vision-Tactile Sensor for Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2604.20689-b31b1b.svg)](https://arxiv.org/abs/2604.20689) [![Project](https://img.shields.io/badge/Project-Page-green)](https://nus-lins-lab.github.io/FingerEyeWeb/)
+- **Sparsh / TacBench**, "Sparsh: Self-supervised Touch Representations for Vision-based Tactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2410.24090-b31b1b.svg)](https://arxiv.org/abs/2410.24090) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sparsh-ssl.github.io/)
+- **AnySkin**, "Plug-and-play Skin Sensing for Robotic Touch". [![arXiv](https://img.shields.io/badge/arXiv-2409.08276-b31b1b.svg)](https://arxiv.org/abs/2409.08276) [![Project](https://img.shields.io/badge/Project-Page-green)](https://any-skin.github.io/)
+
+### Tactile In-Hand Manipulation
+
+- **General In-Hand Object Rotation with Vision and Touch**. [![arXiv](https://img.shields.io/badge/arXiv-2309.09979-b31b1b.svg)](https://arxiv.org/abs/2309.09979) [![Project](https://img.shields.io/badge/Project-Page-green)](https://haozhi.io/rotateit/)
+- **TacGNN**, "TacGNN: Learning Tactile-based In-hand Manipulation with a Blind Robot". [![arXiv](https://img.shields.io/badge/arXiv-2304.00736-b31b1b.svg)](https://arxiv.org/abs/2304.00736)
+- **Dexterity from Touch**, "Dexterity from Touch: Self-Supervised Pre-Training of Tactile Representations with Robotic Play". [![arXiv](https://img.shields.io/badge/arXiv-2303.12076-b31b1b.svg)](https://arxiv.org/abs/2303.12076) [![Project](https://img.shields.io/badge/Project-Page-green)](https://tactile-dexterity.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/irmakguzey/tactile-dexterity)
+- **Touch Dexterity**, "Rotating without Seeing: Towards In-hand Dexterity through Touch". [![arXiv](https://img.shields.io/badge/arXiv-2303.10880-b31b1b.svg)](https://arxiv.org/abs/2303.10880) [![Project](https://img.shields.io/badge/Project-Page-green)](https://touchdexterity.github.io)
+- **Learning Purely Tactile In-Hand Manipulation with a Torque-Controlled Hand**. [![arXiv](https://img.shields.io/badge/arXiv-2204.03698-b31b1b.svg)](https://arxiv.org/abs/2204.03698)
 
 ### Visuo-Tactile Dexterous Manipulation
 
 - **RAPID Hand**, "A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform for Generalist Robot Autonomy". [![arXiv](https://img.shields.io/badge/arXiv-2506.07490-b31b1b.svg)](https://arxiv.org/abs/2506.07490)
 - **Robot Synesthesia**, "Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2312.01853-b31b1b.svg)](https://arxiv.org/abs/2312.01853) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yingyuan0414.github.io/visuotactile/)
-- **TacSL**, "A Library for Visuotactile Sensor Simulation and Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.06506-b31b1b.svg)](https://arxiv.org/abs/2408.06506)
+- **TacSL**, "A Library for Visuotactile Sensor Simulation and Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.06506-b31b1b.svg)](https://arxiv.org/abs/2408.06506) [![Project](https://img.shields.io/badge/Project-Page-green)](https://iakinola23.github.io/tacsl/)
 
 ## Dexterous Manipulation Tasks
 
@@ -160,9 +169,10 @@ Task-oriented papers should be listed here even if they also appear in retargeti
 
 Robot hands, hand-arm platforms, and platform papers that include design, sensing, actuation, or reproducibility details.
 
-- **ByteDexter Hand**, from "Dexterous Teleoperation of 20-DoF ByteDexter Hand via Human Motion Retargeting". [![arXiv](https://img.shields.io/badge/arXiv-2507.03227-b31b1b.svg)](https://arxiv.org/abs/2507.03227)
+- **ByteDexter Hand**, from "Dexterous Teleoperation of 20-DoF ByteDexter Hand via Human Motion Retargeting". [![arXiv](https://img.shields.io/badge/arXiv-2507.03227-b31b1b.svg)](https://arxiv.org/abs/2507.03227) [![Project](https://img.shields.io/badge/Project-Page-green)](https://byte-dexter.github.io/)
 - **RAPID Hand**, "A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform for Generalist Robot Autonomy". [![arXiv](https://img.shields.io/badge/arXiv-2506.07490-b31b1b.svg)](https://arxiv.org/abs/2506.07490)
-- To be expanded with anthropomorphic hands, low-cost hands, hand-arm systems, and end-effector design comparisons.
+- **Tactile SoftHand-A**, "Tactile SoftHand-A: 3D-Printed, Tactile, Highly-underactuated, Anthropomorphic Robot Hand with an Antagonistic Tendon Mechanism". [![arXiv](https://img.shields.io/badge/arXiv-2406.12731-b31b1b.svg)](https://arxiv.org/abs/2406.12731) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/SoutheastWind/Tactile_SoftHand_A)
+- **All the Feels**, "All the Feels: A dexterous hand with large-area tactile sensing". [![arXiv](https://img.shields.io/badge/arXiv-2210.15658-b31b1b.svg)](https://arxiv.org/abs/2210.15658) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sites.google.com/view/roboticsbenchmarks/platforms/dmanus)
 
 ## Datasets, Benchmarks, and Simulators
 
@@ -182,9 +192,9 @@ Resources for training, evaluating, or simulating dexterous hand-object manipula
 
 ### Tactile Datasets and Simulators
 
-- **Sparsh / TacBench**, "Sparsh: Self-supervised Touch Representations for Vision-based Tactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2410.24090-b31b1b.svg)](https://arxiv.org/abs/2410.24090)
+- **Sparsh / TacBench**, "Sparsh: Self-supervised Touch Representations for Vision-based Tactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2410.24090-b31b1b.svg)](https://arxiv.org/abs/2410.24090) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sparsh-ssl.github.io/)
 - **HT-Bench**, "HT-Bench: Benchmarking Full-Hand Tactile Perception for Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2606.19161-b31b1b.svg)](https://arxiv.org/abs/2606.19161)
-- **TacSL**, "A Library for Visuotactile Sensor Simulation and Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.06506-b31b1b.svg)](https://arxiv.org/abs/2408.06506)
+- **TacSL**, "A Library for Visuotactile Sensor Simulation and Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.06506-b31b1b.svg)](https://arxiv.org/abs/2408.06506) [![Project](https://img.shields.io/badge/Project-Page-green)](https://iakinola23.github.io/tacsl/)
 
 ## Open-Source Tools and Tutorials
 
