@@ -108,6 +108,7 @@ This is the primary category of the repository. It covers methods and systems th
 - **RealDexUMI**, "A Wearable Universal Manipulation Interface for Dexterous Robot Learning". [![arXiv](https://img.shields.io/badge/arXiv-2606.06033-b31b1b.svg)](https://arxiv.org/abs/2606.06033)
 - **UniDex-Cap**, from "UniDex: A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2603.22264-b31b1b.svg)](https://arxiv.org/abs/2603.22264)
 - **ByteDexter Teleoperation**, "Dexterous Teleoperation of 20-DoF ByteDexter Hand via Human Motion Retargeting". [![arXiv](https://img.shields.io/badge/arXiv-2507.03227-b31b1b.svg)](https://arxiv.org/abs/2507.03227)
+- **DexMV**, "DexMV: Imitation Learning for Dexterous Manipulation from Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2108.05877-b31b1b.svg)](https://arxiv.org/abs/2108.05877) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yzqin.github.io/dexmv/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/yzqin/dexmv-sim)
 
 ## HOI Reconstruction for Dexterous Manipulation
 
@@ -142,14 +143,18 @@ Tactile papers are included when the sensor, representation, or policy is connec
 ### Visuo-Tactile Dexterous Manipulation
 
 - **RAPID Hand**, "A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform for Generalist Robot Autonomy". [![arXiv](https://img.shields.io/badge/arXiv-2506.07490-b31b1b.svg)](https://arxiv.org/abs/2506.07490)
+- **Robot Synesthesia**, "Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2312.01853-b31b1b.svg)](https://arxiv.org/abs/2312.01853) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yingyuan0414.github.io/visuotactile/)
 - **TacSL**, "A Library for Visuotactile Sensor Simulation and Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.06506-b31b1b.svg)](https://arxiv.org/abs/2408.06506)
 
 ## Dexterous Manipulation Tasks
 
 Task-oriented papers should be listed here even if they also appear in retargeting, tactile, or teleoperation sections.
 
+- **MultiGrasp**, "Grasp Multiple Objects with One Hand". [![arXiv](https://img.shields.io/badge/arXiv-2310.15599-b31b1b.svg)](https://arxiv.org/abs/2310.15599) [![Project](https://img.shields.io/badge/Project-Page-green)](https://multigrasp.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/MultiGrasp/MultiGrasp)
+- **UniDexGrasp++**, "UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning". [![arXiv](https://img.shields.io/badge/arXiv-2304.00464-b31b1b.svg)](https://arxiv.org/abs/2304.00464) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-EPIC/UniDexGrasp2)
+- **UniDexGrasp**, "Universal Robotic Dexterous Grasping via Learning Diverse Proposal Generation and Goal-Conditioned Policy". [![arXiv](https://img.shields.io/badge/arXiv-2303.00938-b31b1b.svg)](https://arxiv.org/abs/2303.00938) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-EPIC/UniDexGrasp2)
+- **GenDexGrasp**, "GenDexGrasp: Generalizable Dexterous Grasping". [![arXiv](https://img.shields.io/badge/arXiv-2210.00722-b31b1b.svg)](https://arxiv.org/abs/2210.00722) [![Project](https://img.shields.io/badge/Project-Page-green)](https://tongclass.ac.cn/publication/2022/gendexgrasp/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/tengyu-liu/GenDexGrasp)
 - ⭐️ **ARCTIC**, "A Dataset for Dexterous Bimanual Hand-Object Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2204.13662-b31b1b.svg)](https://arxiv.org/abs/2204.13662) [![Project](https://img.shields.io/badge/Project-Page-green)](https://arctic.is.tue.mpg.de)
-- To be expanded with dexterous grasping, in-hand manipulation, reorientation, tool use, and bimanual manipulation papers.
 
 ## Robot Hands and Hardware Platforms
 
@@ -170,6 +175,10 @@ Resources for training, evaluating, or simulating dexterous hand-object manipula
 - **EmbodMoCap**, "Embodied Motion Capture: 4D Human Reconstruction in Everyday Environments". [![arXiv](https://img.shields.io/badge/arXiv-2602.23205-b31b1b.svg)](https://arxiv.org/abs/2602.23205) [![Project](https://img.shields.io/badge/Project-Page-green)](https://wenjiawang0312.github.io/projects/embodmocap/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/WenjiaWang0312/EmbodMocap)
 - ⭐️ **HOT3D**, "Hand and Object Tracking in 3D from Egocentric Multi-View Videos". [![arXiv](https://img.shields.io/badge/arXiv-2411.19167-b31b1b.svg)](https://arxiv.org/abs/2411.19167) [![Project](https://img.shields.io/badge/Project-Page-green)](https://facebookresearch.github.io/hot3d/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/hot3d)
 - ⭐️ **ARCTIC**, "A Dataset for Dexterous Bimanual Hand-Object Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2204.13662-b31b1b.svg)](https://arxiv.org/abs/2204.13662) [![Project](https://img.shields.io/badge/Project-Page-green)](https://arctic.is.tue.mpg.de)
+
+### Dexterous Grasping Datasets
+
+- **DexGraspNet**, "DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation". [![arXiv](https://img.shields.io/badge/arXiv-2210.02697-b31b1b.svg)](https://arxiv.org/abs/2210.02697) [![Project](https://img.shields.io/badge/Project-Page-green)](https://pku-epic.github.io/DexGraspNet/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/PKU-EPIC/DexGraspNet)
 
 ### Tactile Datasets and Simulators
 
