@@ -88,7 +88,16 @@ The intended center of gravity is **retargeting and dexterous robot-hand executi
 
 ## Surveys and Roadmaps
 
-- To be added.
+High-level surveys, primers, and roadmaps for understanding dexterous hands, contact-rich manipulation, tactile sensing, grasping, and adjacent robotics trends.
+
+- **Towards Robotic Dexterous Hand Intelligence: A Survey**. [![arXiv](https://img.shields.io/badge/arXiv-2605.13925-b31b1b.svg)](https://arxiv.org/abs/2605.13925)
+- **Dexterous Manipulation through Imitation Learning: A Survey**. [![arXiv](https://img.shields.io/badge/arXiv-2504.03515-b31b1b.svg)](https://arxiv.org/abs/2504.03515)
+- **Survey of Learning-based Approaches for Robotic In-Hand Manipulation**. [![arXiv](https://img.shields.io/badge/arXiv-2401.07915-b31b1b.svg)](https://arxiv.org/abs/2401.07915)
+- **A Survey on Imitation Learning for Contact-Rich Tasks in Robotics**. [![arXiv](https://img.shields.io/badge/arXiv-2506.13498-b31b1b.svg)](https://arxiv.org/abs/2506.13498)
+- **Multi-Fingered Robotic Grasping: A Primer**. [![arXiv](https://img.shields.io/badge/arXiv-1607.06620-b31b1b.svg)](https://arxiv.org/abs/1607.06620)
+- **Deep Learning Approaches to Grasp Synthesis: A Review**. [![arXiv](https://img.shields.io/badge/arXiv-2207.02556-b31b1b.svg)](https://arxiv.org/abs/2207.02556) [![Project](https://img.shields.io/badge/Project-Page-green)](https://rhys-newbury.github.io/projects/6dof/)
+- **Tactile Sensing: From Humans to Humanoids**. [![Paper](https://img.shields.io/badge/Paper-TRO-purple)](https://doi.org/10.1109/TRO.2009.2033627)
+- **A Roadmap for AI in Robotics**. [![arXiv](https://img.shields.io/badge/arXiv-2507.19975-b31b1b.svg)](https://arxiv.org/abs/2507.19975) [![Paper](https://img.shields.io/badge/Paper-NMI-purple)](https://doi.org/10.1038/s42256-025-01050-6)
 
 ## Retargeting and Teleoperation
 
@@ -198,7 +207,39 @@ Resources for training, evaluating, or simulating dexterous hand-object manipula
 
 ## Open-Source Tools and Tutorials
 
-- To be added.
+Reusable codebases, simulators, robot assets, and implementation references for building dexterous-hand research pipelines.
+
+### Retargeting and Teleoperation Toolkits
+
+- ⭐️ **Dex Retargeting**, a Python toolkit for translating human hand motion to robot hand motion. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/dexsuite/dex-retargeting)
+- **AnyTeleop**, a general vision-based dexterous arm-hand teleoperation system. [![Project](https://img.shields.io/badge/Project-Page-green)](https://yzqin.github.io/anyteleop/)
+- **OPEN TEACH**, a VR-based teleoperation and demonstration collection framework for robotic manipulation. [![Project](https://img.shields.io/badge/Project-Page-green)](https://open-teach.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/aadhithya14/Open-Teach)
+- ⭐️ **Open-TeleVision**, a teleoperation framework with immersive active visual feedback. [![Project](https://img.shields.io/badge/Project-Page-green)](https://robot-tv.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/OpenTeleVision/TeleVision)
+- **DexMachina**, a functional retargeting codebase and benchmark for bimanual dexterous manipulation. [![Project](https://img.shields.io/badge/Project-Page-green)](https://project-dexmachina.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/MandiZhao/dexmachina)
+
+### Simulation and Robot Assets
+
+- ⭐️ **ManiSkill**, a GPU-parallelized robot learning simulator and benchmark. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/mani-skill/ManiSkill)
+- **SAPIEN**, a physics-rich embodied AI simulation platform. [![Project](https://img.shields.io/badge/Project-Page-green)](https://sapien.ucsd.edu/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/haosulab/SAPIEN)
+- ⭐️ **MuJoCo Menagerie**, a curated collection of high-quality MuJoCo robot models. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/google-deepmind/mujoco_menagerie)
+- **Dex URDF**, a collection of URDF models for dexterous hands and objects. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/dexsuite/dex-urdf)
+- **robot_descriptions.py**, Python loaders for open-source robot descriptions across robotics frameworks. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/robot-descriptions/robot_descriptions.py)
+- **LEAP Hand API**, the official API for controlling LEAP Hand. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/leap-hand/LEAP_Hand_API)
+
+### Tactile and Sensing Toolkits
+
+- **TacSL**, a visuotactile sensor simulation and learning library. [![Project](https://img.shields.io/badge/Project-Page-green)](https://iakinola23.github.io/tacsl/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/iakinola23/tacsl)
+- **TACTO**, a simulator for vision-based tactile sensors. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/tacto)
+- **Tactile Gym 2.0**, a PyBullet suite for tactile reinforcement learning and sim-to-real experiments. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ac-93/tactile_gym)
+- **AnySkin Interface**, the interfacing repository for the AnySkin tactile sensor. [![Project](https://img.shields.io/badge/Project-Page-green)](https://any-skin.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/raunaqbhirangi/anyskin)
+- **Sparsh**, a self-supervised touch representation codebase for vision-based tactile sensing. [![Project](https://img.shields.io/badge/Project-Page-green)](https://sparsh-ssl.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/sparsh)
+
+### Hand and HOI Utility Libraries
+
+- **manotorch**, a differentiable MANO hand model layer in PyTorch with anatomy-consistent utilities. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/lixiny/manotorch)
+- **manopth**, a differentiable MANO hand model layer for PyTorch. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/hassony2/manopth)
+- ⭐️ **HaMeR**, a 3D hand mesh recovery codebase for monocular hand reconstruction. [![Project](https://img.shields.io/badge/Project-Page-green)](https://geopavlakos.github.io/hamer/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/geopavlakos/hamer)
+- **hand_tracking_toolkit**, utilities for loading Meta hand-object datasets and evaluating hand tracking. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/hand_tracking_toolkit)
 
 ## Citation
 
