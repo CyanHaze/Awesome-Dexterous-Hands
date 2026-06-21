@@ -51,10 +51,10 @@ With code:
 - **ShortName**, "Full Paper Title". [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/org/repo)
 ```
 
-If a paper is a recommended starting point, prefix it with `[STAR]`:
+If a paper is a recommended starting point, prefix it with `⭐️`:
 
 ```md
-- [STAR] **ShortName**, "Full Paper Title". [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+- ⭐️ **ShortName**, "Full Paper Title". [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 ```
 
 ## Add a Dataset, Benchmark, Simulator, or Hardware Platform
