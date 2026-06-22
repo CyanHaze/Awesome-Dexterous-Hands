@@ -3,7 +3,6 @@
 # Awesome Dexterous Hands
 
 [![GitHub stars](https://img.shields.io/github/stars/CyanHaze/Awesome-Dexterous-Hands?style=social)](https://github.com/CyanHaze/Awesome-Dexterous-Hands/stargazers)
-[![License](https://img.shields.io/github/license/CyanHaze/Awesome-Dexterous-Hands)](./LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](./CONTRIBUTING.md)
 
