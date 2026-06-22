@@ -13,6 +13,10 @@ This repository focuses on concrete hand-object manipulation scenarios: reconstr
 
 </div>
 
+<p align="center">
+  <img src="assets/cover.png" alt="# Awesome Dexterous Hands" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
+</p>
+
 ---
 
 ## News & Updates
