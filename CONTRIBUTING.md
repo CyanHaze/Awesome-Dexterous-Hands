@@ -77,4 +77,4 @@ Use the same style as paper entries, but make the resource type clear in the sho
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the repository's MIT License.
+By contributing, you agree that your contributions will be licensed under the repository's CC-BY-4.0 License.
