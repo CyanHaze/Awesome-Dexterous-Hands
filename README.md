@@ -86,7 +86,7 @@ The intended center of gravity is **retargeting and dexterous robot-hand executi
 > ⭐️ Must Read / recommended starting point<br>
 > [CODE] Official or high-quality implementation available<br>
 > [DATA] Dataset or benchmark available<br>
-> **Last Updated:** 2026-06-21
+> **Last Updated:** 2026-07-09
 
 ---
 
@@ -118,6 +118,7 @@ Systems that connect human videos or demonstrations to robot-executable trajecto
 - **Do as I Do**, "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2606.19333-b31b1b.svg)](https://arxiv.org/abs/2606.19333) [![Project](https://img.shields.io/badge/Project-Page-green)](https://do-as-i-do.com/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/malik-group/do-as-i-do)
 - **EgoInfinity**, "EgoInfinity: A Web-Scale 4D Hand-Object Interaction Data Engine for Any-View Robot Retargeting and Video-to-Action Robot Learning". [![arXiv](https://img.shields.io/badge/arXiv-2606.17385-b31b1b.svg)](https://arxiv.org/abs/2606.17385) [![Project](https://img.shields.io/badge/Project-Page-green)](https://rice-robotpi-lab.github.io/EgoInfinity/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/Rice-RobotPI-Lab/EgoInfinity) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/Rice-RobotPI-Lab/egoinfinity)
 - **UniDex**, "A Robot Foundation Suite for Universal Dexterous Hand Control from Egocentric Human Videos". [![arXiv](https://img.shields.io/badge/arXiv-2603.22264-b31b1b.svg)](https://arxiv.org/abs/2603.22264)
+- ⭐️ **SPIDER**, "SPIDER: Scalable Physics-Informed Dexterous Retargeting". [![arXiv](https://img.shields.io/badge/arXiv-2511.09484-b31b1b.svg)](https://arxiv.org/abs/2511.09484) [![Project](https://img.shields.io/badge/Project-Page-green)](https://jc-bao.github.io/spider-project/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/spider) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/retarget/retarget_example)
 - **DexMachina**, "DexMachina: Functional Retargeting for Bimanual Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2505.24853-b31b1b.svg)](https://arxiv.org/abs/2505.24853) [![Project](https://img.shields.io/badge/Project-Page-green)](https://project-dexmachina.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/MandiZhao/dexmachina)
 - **DexWild**, "DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies". [![arXiv](https://img.shields.io/badge/arXiv-2505.07813-b31b1b.svg)](https://arxiv.org/abs/2505.07813) [![Project](https://img.shields.io/badge/Project-Page-green)](https://dexwild.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/dexwild/dexwild) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/boardd/dexwild-dataset)
 - **Robotic Telekinesis**, "Robotic Telekinesis: Learning a Robotic Hand Imitator by Watching Humans on Youtube". [![arXiv](https://img.shields.io/badge/arXiv-2202.10448-b31b1b.svg)](https://arxiv.org/abs/2202.10448) [![Project](https://img.shields.io/badge/Project-Page-green)](https://robotic-telekinesis.github.io/)
@@ -312,6 +313,7 @@ Reusable codebases, simulators, robot assets, and implementation references for 
 - **manotorch**, a differentiable MANO hand model layer in PyTorch with anatomy-consistent utilities. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/lixiny/manotorch)
 - **manopth**, a differentiable MANO hand model layer for PyTorch. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/hassony2/manopth)
 - ⭐️ **HaMeR**, a 3D hand mesh recovery codebase for monocular hand reconstruction. [![Project](https://img.shields.io/badge/Project-Page-green)](https://geopavlakos.github.io/hamer/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/geopavlakos/hamer)
+- **NVIDIA Video-to-Data Reconstruction**, Docker-based modules for video depth, segmentation, mesh generation, pose tracking, human body modeling, HOI object reconstruction, and egocentric hand reconstruction. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/nvidia-isaac/video_to_data/tree/main/reconstruction)
 - **hand_tracking_toolkit**, utilities for loading Meta hand-object datasets and evaluating hand tracking. [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/facebookresearch/hand_tracking_toolkit)
 
 ## Citation
@@ -321,7 +323,7 @@ If you find this repository useful, please consider citing it:
 ```bibtex
 @misc{awesome_dexterous_hands,
   title  = {Awesome Dexterous Hands},
-  author = {Kai Cheng and Ting Mao},
+  author = {Kai Cheng},
   year   = {2026},
   url    = {https://github.com/CyanHaze/Awesome-Dexterous-Hands}
 }
