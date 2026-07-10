@@ -13,13 +13,16 @@ Thanks for helping improve this list of dexterous-hand resources. Contributions 
 
 Choose the broad section that best matches the main contribution:
 
+- If the work is primarily a survey, primer, or field roadmap, use **Surveys and Roadmaps**.
 - If the work maps human hand motion, hand-object demonstrations, or human intent to a robot hand, use **Retargeting and Teleoperation**.
-- If the work provides a control interface or data-collection system, use **Retargeting and Teleoperation**.
+- If the work provides a human-operated control interface or demonstration data-collection system, use **Retargeting and Teleoperation**.
 - If the work reconstructs hand-object geometry, hand motion, contact, object state, or interaction motion from images or video, use **HOI Reconstruction for Dexterous Manipulation**.
 - If the work uses tactile sensing on robot hands or for dexterous manipulation, use **Tactile Dexterous Hands**.
+- If the main contribution is reinforcement learning, imitation learning, model-based control, perception-based control, or sim-to-real policy transfer for a dexterous hand, use **Learning and Control for Dexterous Hands**.
 - If the work is mainly about a manipulation task, use **Dexterous Manipulation Tasks**.
 - If the work introduces a hand design or platform, use **Robot Hands and Hardware Platforms**.
 - If the work is mainly a dataset, simulator, benchmark, or evaluation protocol, use **Datasets, Benchmarks, and Simulators**.
+- If the primary contribution is a reusable toolkit, robot asset, utility library, or implementation tutorial rather than a research method, use **Open-Source Tools and Tutorials**.
 
 Cross-listing is allowed when useful, but keep it limited. A paper should usually appear in one primary section and at most one secondary section.
 
@@ -77,4 +80,4 @@ Use the same style as paper entries, but make the resource type clear in the sho
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the repository's CC-BY-4.0 License.
+By contributing, you agree that your contributions will be licensed under the repository's [CC BY 4.0 License](./LICENSE).
