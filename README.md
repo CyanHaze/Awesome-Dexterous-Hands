@@ -311,6 +311,7 @@ Resources for training, evaluating, or simulating dexterous hand-object manipula
 - **HT-Bench**, "HT-Bench: Benchmarking and Learning Dexterous Full-Hand Tactile Representations with Egocentric Vision". [![arXiv](https://img.shields.io/badge/arXiv-2606.19161-b31b1b.svg)](https://arxiv.org/abs/2606.19161)
 - **Sparsh / TacBench**, "Sparsh: Self-supervised Touch Representations for Vision-based Tactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2410.24090-b31b1b.svg)](https://arxiv.org/abs/2410.24090) [![Project](https://img.shields.io/badge/Project-Page-green)](https://sparsh-ssl.github.io/)
 - **TacSL**, "A Library for Visuotactile Sensor Simulation and Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.06506-b31b1b.svg)](https://arxiv.org/abs/2408.06506) [![Project](https://img.shields.io/badge/Project-Page-green)](https://iakinola23.github.io/tacsl/)
+- **RoboSkin.ai Tactile Robotics Datasets**, a source-reviewed cross-dataset directory for robot-hand and visuo-tactile learning, with sensor, robot, task, modality, scale, access, and license-evidence fields. [![Dataset](https://img.shields.io/badge/Dataset-Directory-yellow)](https://roboskin.ai/datasets)
 
 ## Open-Source Tools and Tutorials
 
