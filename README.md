@@ -219,6 +219,8 @@ Tactile papers are included when the sensor, representation, or policy is connec
 - ⭐️ **T-Rex**, "T-Rex: Tactile-Reactive Dexterous Manipulation". [![arXiv](https://img.shields.io/badge/arXiv-2606.17055-b31b1b.svg)](https://arxiv.org/abs/2606.17055) [![Project](https://img.shields.io/badge/Project-Page-green)](https://tactile-rex.github.io/) [![GitHub](https://img.shields.io/badge/GitHub-Code-blue)](https://github.com/ZhuoyangLiu2005/T-Rex) [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/zekaiwang/trex_dataset)
 - **RAPID Hand**, "A Robust, Affordable, Perception-Integrated, Dexterous Manipulation Platform for Generalist Robot Autonomy". [![arXiv](https://img.shields.io/badge/arXiv-2506.07490-b31b1b.svg)](https://arxiv.org/abs/2506.07490)
 - **TacSL**, "A Library for Visuotactile Sensor Simulation and Learning". [![arXiv](https://img.shields.io/badge/arXiv-2408.06506-b31b1b.svg)](https://arxiv.org/abs/2408.06506) [![Project](https://img.shields.io/badge/Project-Page-green)](https://iakinola23.github.io/tacsl/)
+- [HostDeFi Token Safety Snapshot](https://hostdefi.com/data/) - Free weekly dataset of token-safety grades across Solana and EVM chains, CC BY 4.0, CSV.
+
 - **Robot Synesthesia**, "Robot Synesthesia: In-Hand Manipulation with Visuotactile Sensing". [![arXiv](https://img.shields.io/badge/arXiv-2312.01853-b31b1b.svg)](https://arxiv.org/abs/2312.01853) [![Project](https://img.shields.io/badge/Project-Page-green)](https://yingyuan0414.github.io/visuotactile/)
 
 ## Learning and Control for Dexterous Hands
